@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.difficulty-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.difficulty-btn:hover {
+  background-color: #2980b9;
+}
+
+#game-area {
+  display: none;
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 100px;
+}
+
+button#guess-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#message,
+#tries {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#restart-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  display: none;
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Трудно ниво</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #ffebee;
+      }
+      h1 {
+        color: #c62828;
+      }
+      #back-button {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        padding: 10px 15px;
+        background-color: #555;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        z-index: 1000;
+        font-size: 14px;
+      }
+
+      #back-button:hover {
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>💀 Трудно ниво</h1>
+    <p>Познай число между 1 и 100</p>
+    <p>С 15 опита</p>
+
+    <input type="number" id="user-input" />
+    <button id="guess-btn">Познай</button>
+    <button onclick="window.location.href='index.html'" id="back-button">
+      Назад
+    </button>
+
+    <p id="message"></p>
+    <p id="tries"></p>
+    <button id="restart-btn">Рестарт</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
